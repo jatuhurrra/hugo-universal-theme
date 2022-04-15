@@ -39,3 +39,9 @@ status = 200
     identifier = "menu.blog"
     url        = "/blog/"
     weight     = 200
+
+security:
+funcs:
+getenv:
+- ^HUGO_
+- ^WC_
