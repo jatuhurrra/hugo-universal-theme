@@ -38,7 +38,7 @@ status = 200
 name = "home"
 identifier = "home"
 weight = 200
-url = "home"
+// url = "home"
 
 security:
 funcs:
