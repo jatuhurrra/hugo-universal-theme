@@ -35,10 +35,10 @@ to = "/npmjs/"
 status = 200
 
 [[menu.main]]
-name = "home"
-identifier = "home"
-weight = 200
-
+    name       = "Blog"
+    identifier = "menu.blog"
+    url        = "/blog/"
+    weight     = 200
 
 security:
 funcs:
