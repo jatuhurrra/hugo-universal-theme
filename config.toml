@@ -39,3 +39,9 @@ name = "home"
 identifier = "home"
 weight = 200
 url = "/home/"
+
+security:
+funcs:
+getenv:
+- ^HUGO_
+- ^WC_
