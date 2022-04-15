@@ -33,3 +33,9 @@ HUGO_ENABLEGITINFO = "true"
 from = "/npmjs/*"
 to = "/npmjs/"
 status = 200
+
+[[menu.main]]
+name = "blog"
+identifier = "blog"
+weight = 200
+url = "/blog/"
