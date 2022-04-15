@@ -34,7 +34,7 @@ from = "/npmjs/*"
 to = "/npmjs/"
 status = 200
 
-[[menu.main]]
+[menu.main]
 name = "home"
 identifier = "home"
 weight = 200
